@@ -13,3 +13,5 @@ is_curious =True
 
 print(name + " " + surname + " " +str(age) + " " + str(height) + " "+ nationality + " "+ str(knows_psychology) +" "+ str(loves_painting))
 print("I am"+ " " + profession + "." + "My future study interests are" + " " + interests+ " " + "fields" + ".")
+
+#shortly about me
