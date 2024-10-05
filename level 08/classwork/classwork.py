@@ -21,6 +21,11 @@ b = 1.5 # float
 c = a + b # float
 print(c)
 
+print(type(5 < 9))
+print(type(50 > 100))
+print(type(True))
+print(type(False))    # all of them are booleans
+
 # data types int, float, str, boolean
 #boolean  - True / False
 
@@ -35,7 +40,7 @@ print(c)
 # >=
 # ==
 # !=
-print (10<11)
+print (10 < 11)
 print("--------------------------------------")
 print (10 == 10) # == უდრის
 print (10 != 10) # != არ უდრის
@@ -74,8 +79,8 @@ door_locked = False
 print(light_on or door_locked)
 
 
-light_on = true
-door_locked = false
-print(light_on OR door_locked)
-print(light_on AND door_locked)
+# light_on = true
+# door_locked = false
+# print(light_on OR door_locked)
+# print(light_on AND door_locked)
 
