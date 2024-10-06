@@ -96,8 +96,7 @@ P = True
 Q = False
 P_and_not_Q = (P ==True) and (Q == False)
 not_P_and_Q = (P == False) and (Q == True)
-P_xor_Q = (P == True) or (Q == True)
-P_xor_Q = (P == False) and (Q == False)
+P_xor_Q = (P_and_not_Q or not_P_and_Q) or (P == False and Q == False)
 print(P_and_not_Q)
 print(not_P_and_Q)
 print(P_xor_Q)
