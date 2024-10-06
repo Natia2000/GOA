@@ -79,8 +79,8 @@ door_locked = False
 print(light_on or door_locked)
 
 
-# light_on = true
-# door_locked = false
-# print(light_on OR door_locked)
-# print(light_on AND door_locked)
+light_on = True
+door_locked = False
+print(light_on or door_locked)
+print(light_on and door_locked)
 
