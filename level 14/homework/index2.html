@@ -1,0 +1,82 @@
+<!--შევქმნათ ანალოგიური სარეგისტრაციო ფორმა-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="t1">Scan for:</label>
+        <br>
+        <br>
+        <select name = "Scan for">
+            <option value="Active Directory">Active Directory</option>
+            <option value="Passive Directory">Passive Directory</option>
+        </select>
+        <br>
+        <br>
+        <label for="t2">Fully-qualified domain name:</label>
+        <br>
+        <input type="text" id="t2" name="name" placeholder="AD.Jab.company.com">
+        <br>
+        <br>
+        <label for="t3">Organizational Unit:</label>
+        <br>
+        <input type="text" id="t3" name="Unit"placeholder="Lab/Engineering/Company">
+        <br>
+        <br>
+        <label for="t4">Domain controller:</label>
+        <br>
+        <input type="text" id="t4" name="controller" placeholder="myDomainController">
+        <br>
+        <br>
+        <label for="t5">Username</label>
+        <br>
+        <input type="text" id="t5" name="Username"placeholder="Administrator">
+        <br>
+        <br>
+        <label for="t6">Password:</label>
+        <br>
+        <input type="password" id="t6" name="password">
+        <br>
+        <br>
+        <hr>
+        <button type="Submit">Add to Scan></button>
+        <br>
+        <br>
+        <button type="Submit">Exclude from Scan></button>
+    </form>
+</body>
+    <form>
+        <p> Employment details</p>
+        <br>
+        <br>
+        <label for="t1">First name</label>
+        <input type="text" id="t1" name="First name">
+        <br>
+        <br>
+        <label for="t2">Last name</label>
+        <input type="text" id="t2" name="Last name">
+        <br>
+        <br>
+        <input type="radio"> <label for="Gen"><b> Male</b></label> <input type="radio"> <label for="Gen"><b> Female</b></label> 
+        <br>
+        <br>
+        <label for="ID">Employee ID:</label>
+        <input type="text" id="ID" name="ID">
+        <br>
+        <br>
+        <label for="t3">Designation:</label>
+        <input type="text" id="t4" name="Designation">
+        <br>
+        <br>
+        <label for="Po">Phone number:</label>
+        <input type="number" id="Po" name="Phone Number">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+    </form>
+</html>
